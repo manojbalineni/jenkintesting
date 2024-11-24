@@ -17,4 +17,9 @@ public class SampleController {
         log.info("Application has been started");
         return "Hello World!";
     }
+
+    @GetMapping("/test")
+    public String sayTest(){
+        return "test";
+    }
 }
