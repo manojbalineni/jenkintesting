@@ -22,4 +22,9 @@ public class SampleController {
     public String sayTest(){
         return "test";
     }
+
+    @GetMapping("/dummy")
+    public String dummy(){
+        return "dummy";
+    }
 }
